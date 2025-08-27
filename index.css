@@ -1,0 +1,82 @@
+.hind-madurai-light {
+  font-family: "Hind Madurai", sans-serif;
+  font-style: normal;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.nav-btn{
+    display: flex;
+}
+.nav{
+    max-width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+    
+}
+.btn-heart,
+.btn-coin,
+.btn-copy{
+    width: 110px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:25px ;
+    border: none;
+    border-radius: 30px;
+    gap: 7px;
+   
+    
+}
+.btn-heart,
+.btn-coin{
+    background-color:rgb(204, 234, 211);
+}
+.h-logo{
+    color: #006747;
+}
+
+.dark{
+    width: 50px;
+    height: 50px;
+    
+}
+.heart{
+    width: 30px;
+    height: 30px;
+}
+.coin{
+    width: 24px;
+    height: 24px;
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*banner-section*/
+
+.head-banner{
+    max-width: 1920px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #006747;
+    padding: 15px;
+}
+.banner-logo{
+    width: 92px;
+    height: 92px;
+
+}
+.white{
+    color: aliceblue;
+}
+
+
+/*card-section*/
+
