@@ -25,7 +25,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left:25px ;
+    margin-left:10px ;
     border: none;
     border-radius: 30px;
     gap: 7px;
@@ -35,6 +35,10 @@
 .btn-heart,
 .btn-coin{
     background-color:rgb(204, 234, 211);
+}
+.btn-copy{
+    background-color: #00A63E;
+    color: aliceblue;
 }
 .h-logo{
     color: #006747;
@@ -79,4 +83,111 @@ h1{
 
 
 /*card-section*/
+.card-section{
+    max-width: 1662px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    background-color:rgb(204, 234, 211) ;
+   
+}
+.all-cards{
+    display: grid;
+    grid-template-columns: 3fr auto;
+}
+.card-element{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 0 auto;
+    margin: 15px;
+    gap: 10px;
+    
+}
+.cards{
+    width: 280px;
+    height: 250px;
+    border:none;
+    border-radius: 12px;
+    padding: 15px;
+    background-color: aliceblue;
 
+}
+#x{
+    display: grid;
+    grid-row: span 3;
+    height: auto;
+   
+}
+.im{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.im img{
+    width: 50px;
+    height: 50px;
+}
+.contuct{
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;
+}
+
+.contuct button{
+    width: 160px;
+    height: 40px;
+   
+}
+#a{
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    top: -20px;
+    background-color: rgb(213, 216, 222);
+}
+.p{
+   position: relative;
+   top: -20px;
+   font-size: 0.9rem;
+   color: rgb(68, 69, 70);
+}
+.xy{
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(219, 223, 226);
+    
+    
+}
+.xy i{
+    margin-right: 6px;
+
+}
+#yz{
+    background-color:#00A63E;
+    color: aliceblue;
+}
+.all-btn{
+    display: flex;
+    justify-content: space-between;
+}
+.all-btn button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 12px;
+}
+.all-btn button i{
+    margin-right: 6px;
+}
+#first-btn{
+    padding: 6px;
+    background-color: rgb(219, 223, 226);
+}
+#last-btn{
+    background-color: #00A63E;
+    color: aliceblue;
+}
