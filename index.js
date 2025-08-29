@@ -1,13 +1,17 @@
+ 
 const countHeart = document.getElementById("count-heart");
 const spanHeartCount = countHeart.querySelector("span");
 let heartCount = 0;
+
 const coinButton = document.querySelector(".btn-coin");
 const spanCoinCount = coinButton.querySelector("span");
 let coinCount = parseInt(spanCoinCount.textContent) || 100;
+
 const cardSection = document.querySelector(".card-section");
 const callHistoryList = document.getElementById("call-history-list");
 const copyButton = document.querySelector(".btn-copy");
 const spanCopyCount = copyButton.querySelector("span");
+
 let copyCount = parseInt(spanCopyCount.textContent) || 0;
 
 cardSection.addEventListener("click", function (event) {

@@ -198,3 +198,106 @@ h1 {
   border-bottom: 1px solid #ccc;
   height: auto;
 }
+
+@media (max-width: 768px) {
+.nav {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.nav-btn {
+  flex-direction: column;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.btn-heart,
+.btn-coin,
+.btn-copy {
+  width: 100%;
+  margin-left: 0;
+  margin-bottom: 10px;
+}
+
+.head-banner {
+ padding: 10px;
+}
+
+.banner-logo {
+  width: 60px;
+  height: 60px;
+}
+
+.white h1 {
+ font-size: 1.2rem;
+}
+
+.white p {
+  font-size: 0.9rem;
+}
+
+.card-section {
+  max-width: 100%;
+  padding: 10px;
+}
+
+.card-element {
+  grid-template-columns: 1fr;
+  gap: 15px;
+  display: flex;
+  flex-direction: column; 
+}
+
+.cards {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
+#x {
+  grid-row: span 1;
+  height: auto;
+  order: 999;
+}
+
+.im img {
+  width: 40px;
+  height: 40px;
+}
+
+.contuct {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contuct button {
+  width: 100%;
+  height: 40px;
+}
+
+#a {
+  top: -10px;
+  width: 100%;
+}
+
+.p {
+  top: -10px;
+  font-size: 0.8rem;
+}
+
+.all-btn {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.all-btn button {
+  width: 100%;
+}
+
+#call-history-list {
+  top: 0;
+  max-height: 200px;
+  font-size: 12px;
+}
+}
