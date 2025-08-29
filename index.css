@@ -2,192 +2,199 @@
   font-family: "Hind Madurai", sans-serif;
   font-style: normal;
 }
-.logo{
-    display: flex;
-    align-items: center;
+.logo {
+  display: flex;
+  align-items: center;
 }
-.nav-btn{
-    display: flex;
+.nav-btn {
+  display: flex;
 }
-.nav{
-    max-width: 1920px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 5px;
-    
+.nav {
+  max-width: 1920px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px;
 }
 .btn-heart,
 .btn-coin,
-.btn-copy{
-    width: 110px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left:10px ;
-    border: none;
-    border-radius: 30px;
-    gap: 7px;
-   
-    
+.btn-copy {
+  width: 110px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  border: none;
+  border-radius: 30px;
+  gap: 7px;
 }
 .btn-heart,
-.btn-coin{
-    background-color:rgb(204, 234, 211);
+.btn-coin {
+  background-color: rgb(204, 234, 211);
 }
-.btn-copy{
-    background-color: #00A63E;
-    color: aliceblue;
+.btn-copy {
+  background-color: #00a63e;
+  color: aliceblue;
 }
-.h-logo{
-    color: #006747;
-}
-
-.dark{
-    width: 50px;
-    height: 50px;
-    
-}
-.heart{
-    width: 30px;
-    height: 30px;
-}
-.coin{
-    width: 24px;
-    height: 24px;
-}
-h1{
-    margin: 0;
-    padding: 0;
+.h-logo {
+  color: #006747;
 }
 
+.dark {
+  width: 50px;
+  height: 50px;
+}
+.heart {
+  width: 30px;
+  height: 30px;
+}
+.coin {
+  width: 24px;
+  height: 24px;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+}
 
 /*banner-section*/
 
-.head-banner{
-    max-width: 1920px;
-    margin: 0 auto;
-    text-align: center;
-    background-color: #006747;
-    padding: 15px;
+.head-banner {
+  max-width: 1920px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #006747;
+  padding: 15px;
 }
-.banner-logo{
-    width: 92px;
-    height: 92px;
-
+.banner-logo {
+  width: 92px;
+  height: 92px;
 }
-.white{
-    color: aliceblue;
+.white {
+  color: aliceblue;
 }
-
 
 /*card-section*/
-.card-section{
-    max-width: 1662px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
-    background-color:rgb(204, 234, 211) ;
-   
-}
-.all-cards{
-    display: grid;
-    grid-template-columns: 3fr auto;
-}
-.card-element{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    margin: 0 auto;
-    margin: 15px;
-    gap: 10px;
-    
-}
-.cards{
-    width: 280px;
-    height: 250px;
-    border:none;
-    border-radius: 12px;
-    padding: 15px;
-    background-color: aliceblue;
+.card-section {
+  max-width: 1662px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+  background-color: rgb(204, 234, 211);
 }
-#x{
-    display: grid;
-    grid-row: span 3;
-    height: auto;
-   
+.all-cards {
+  display: grid;
+  grid-template-columns: 3fr auto;
 }
-.im{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+.card-element {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto;
+  margin: 15px;
+  gap: 10px;
 }
-.im img{
-    width: 50px;
-    height: 50px;
+.cards {
+  width: 280px;
+  height: 250px;
+  border: none;
+  border-radius: 12px;
+  padding: 15px;
+  background-color: aliceblue;
 }
-.contuct{
-    
-    display: flex;
-    justify-content: space-between;
-    gap: 6px;
+#x {
+  display: grid;
+
+  grid-template-rows: auto auto;
+  grid-row: span 3;
+  height: auto;
+}
+.im {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.im img {
+  width: 50px;
+  height: 50px;
+}
+.contuct {
+  display: flex;
+  justify-content: space-between;
+  gap: 6px;
 }
 
-.contuct button{
-    width: 160px;
-    height: 40px;
-   
+.contuct button {
+  width: 160px;
+  height: 40px;
 }
-#a{
-    border: none;
-    border-radius: 5px;
-    position: relative;
-    top: -20px;
-    background-color: rgb(213, 216, 222);
+#a {
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  top: -20px;
+  background-color: rgb(213, 216, 222);
 }
-.p{
-   position: relative;
-   top: -20px;
-   font-size: 0.9rem;
-   color: rgb(68, 69, 70);
+.p {
+  position: relative;
+  top: -20px;
+  font-size: 0.9rem;
+  color: rgb(68, 69, 70);
 }
-.xy{
-    border: none;
-    border-radius: 12px;
-    background-color: rgb(219, 223, 226);
-    
-    
+.xy {
+  border: none;
+  border-radius: 12px;
+  background-color: rgb(219, 223, 226);
 }
-.xy i{
-    margin-right: 6px;
-
+.xy i {
+  margin-right: 6px;
 }
-#yz{
-    background-color:#00A63E;
-    color: aliceblue;
+#yz {
+  background-color: #00a63e;
+  color: aliceblue;
 }
-.all-btn{
-    display: flex;
-    justify-content: space-between;
+.all-btn {
+  display: flex;
+  justify-content: space-between;
 }
-.all-btn button{
-    width: 100px;
-    height: 40px;
-    border: none;
-    border-radius: 12px;
+.all-btn button {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 12px;
 }
-.all-btn button i{
-    margin-right: 6px;
+.all-btn button i {
+  margin-right: 6px;
 }
-#first-btn{
-    padding: 6px;
-    background-color: rgb(219, 223, 226);
+#first-btn {
+  padding: 6px;
+  background-color: rgb(219, 223, 226);
 }
-#last-btn{
-    background-color: #00A63E;
-    color: aliceblue;
+#last-btn {
+  background-color: #00a63e;
+  color: aliceblue;
+}
+.fa-heart,
+.xy,
+.fa-phone-volume {
+  pointer-events: auto;
+  z-index: 10;
+}
+#call-history-list {
+  margin-bottom: 10px;
+  padding: 10px;
+  max-height: 1000px;
+  overflow-y: auto;
+  font-size: 14px;
+  color: #333;
+  background-color: #f9f9f9;
+  position: relative;
+  top: -200px;
+}
+#call-history-list div {
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+  height: auto;
 }
